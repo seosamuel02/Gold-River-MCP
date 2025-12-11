@@ -1,0 +1,93 @@
+# Gold-River-MCP .gitignore
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========== Virtual Environment ==========
+.venv/
+venv/
+ENV/
+env/
+
+# ========== IDE ==========
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ========== 환경변수 (중요! 절대 커밋 금지) ==========
+.env
+.env.local
+.env.*.local
+*.env
+
+# ========== 데이터베이스 ==========
+data/db/*.db
+data/db/*.sqlite
+data/db/*.sqlite3
+*.db
+
+# ========== 캐시 ==========
+data/cache/*
+!data/cache/.gitkeep
+.cache/
+
+# ========== 로그 ==========
+*.log
+logs/
+
+# ========== 테스트 ==========
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# ========== 민감한 문서 (등기부등본 등) ==========
+*.pdf
+documents/
+uploads/
+
+# ========== MCP 관련 ==========
+.mcp/
+.mcp.json
+
+# ========== Claude Code 로컬 설정 ==========
+.claude/
+CLAUDE.md
+gemini.md
+
+# ========== Playwright ==========
+.playwright-mcp/
+
+# ========== OS ==========
+.DS_Store
+Thumbs.db
+
+# ========== 리소스 (개인정보 포함 가능) ==========
+src/resources/*.local.json
+
+# ========== 임시 파일 ==========
+*.tmp
+*.temp
+temp/
+tmp/
