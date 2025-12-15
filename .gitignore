@@ -72,8 +72,10 @@ uploads/
 .mcp.json
 
 # ========== Claude Code 로컬 설정 ==========
-.claude/
-CLAUDE.md
+# CLAUDE.md는 푸시함 (새 세션 컨텍스트용)
+# .claude/commands/는 푸시함 (커스텀 슬래시 커맨드)
+.claude/settings.local.json
+.claude/*.local.*
 gemini.md
 
 # ========== Playwright ==========
